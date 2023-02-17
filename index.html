@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Tincat</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <img src="./img/icon-profile.png" alt="profile icon" />
+          </li>
+          <li class="nav-item logo">
+            <img src="./img/logo.png" alt="logo of the app" />
+          </li>
+          <li class="nav-item">
+            <img src="./img/icon-chat.png" alt="chat icon" />
+          </li>
+        </ul>
+      </header>
+
+      <main id="main-content" class="main-content">
+        <!-- MAIN CONTENT RENDERS HERE -->
+
+        <div id="profile-container" class="profile-container"></div>
+        <div class="buttons-container">
+          <button id="cross-btn" class="btn cross-btn">
+            <img src="./img/icon-cross.png" alt="" />
+          </button>
+          <button id="like-btn" class="btn like-btn">
+            <img src="./img/icon-heart.png" alt="" />
+          </button>
+        </div>
+      </main>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 550px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+}
+
+/* HEADER */
+.header {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  width: 2.1em;
+  max-height: 2.1em;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 4.5em;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1100px) {
+  .main-content {
+    min-height: 95vh;
+    justify-content: space-between;
+  }
+}
+
+.profile-container {
+  max-width: 98%;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.profile-pic {
+  border-radius: 15px;
+}
+
+.decision-badge {
+  display: block;
+  max-width: 44%;
+  position: absolute;
+  top: 3.5em;
+  left: 2em;
+  transform: rotate(-30deg);
+}
+
+.badge-like {
+  display: none;
+}
+
+.badge-nope {
+  display: none;
+}
+
+.profile-text-container {
+  margin: 0 0 1em 0.8em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.profile-title {
+  margin: 0;
+  color: #f8f8f8;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.profile-description {
+  max-width: 320px;
+  margin: 0;
+  padding-top: 0.3em;
+  font-size: 1.5rem;
+  color: #b7b7b7;
+  font-weight: 400;
+  text-shadow: 0 1px 15px black;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.btn {
+  padding: 2em;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px #e9e9ea;
+  cursor: pointer;
+}
+
+.cross-btn {
+  margin-right: 2em;
+}
+
+.cross-btn:hover {
+  background-color: #ffe7ef;
+}
+
+.like-btn:hover {
+  background-color: #dbfff4;
+}
+
+.end-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiped-container,
+.liked-container {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.result-container {
+  margin-bottom: 7em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.result-profile-title {
+  font-size: 1em;
+}

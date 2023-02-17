@@ -1,0 +1,68 @@
+const pets = [
+  {
+    name: 'Rex',
+    avatar: './img/dog-rex.jpg',
+    age: 25,
+    bio: 'Art. Literature. Natural wine. Yoga.',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Bella',
+    avatar: './img/dog-bella.jpg',
+    age: 43,
+    bio: "Yup, that's my owner. U can meet him if you want",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Teddy',
+    avatar: './img/sloth-teddy.jpg',
+    age: 30,
+    bio: 'How you doin?',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Serval',
+    avatar: './img/cat-serval.jpg',
+    age: 38,
+    bio: 'I want you to sniff me',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Tinamou',
+    avatar: './img/red-panda-tinamou.jpg',
+    age: 44,
+    bio: 'Sup yall, alpha inda house',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Woodchuck',
+    avatar: './img/squirell-woodchuck.jpg',
+    age: 87,
+    bio: 'I speak latin, or am I?',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Peccary',
+    avatar: './img/panda-peccary.jpg',
+    age: 4,
+    bio: "Now you see me, now you don't!",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: 'Amazonius',
+    avatar: './img/cat-amazonius.jpg',
+    age: 26,
+    bio: 'Just hanging, nothing to see here',
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+];
+
+export default pets;
